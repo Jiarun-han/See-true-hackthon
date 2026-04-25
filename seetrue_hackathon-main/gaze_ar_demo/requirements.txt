@@ -1,0 +1,11 @@
+opencv-python>=4.8
+numpy>=1.24
+python-dotenv>=1.0
+
+# EricAI client — choose ONE of the two install methods below:
+#
+# Option A: via ARM PyPI (recommended inside Ericsson network)
+#   pip install --index https://arm.sero.gic.ericsson.se/artifactory/api/pypi/proj-swtech-pypi-local/simple "ericai[proxy]"
+#
+# Option B: via GitLab read-access token (works anywhere)
+#   pip install git+https://gitlabreadaccess:yX-PtEF2e71oj4N2dkEZ@gitlab.internal.ericsson.com/sw-tech/ericai-client.git
